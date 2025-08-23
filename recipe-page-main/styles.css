@@ -29,7 +29,8 @@ body {
 }
 
 .preparation-time {
-    margin-left: 40px;
+    margin: 0 auto;
+    width: 67%;
 }
 
 .omelette-recipe {
@@ -50,4 +51,23 @@ body {
     width: 108%;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
+}
+
+.preparation {
+    margin: 0 auto;
+    width: 81%;
+    margin-top: 34px;
+    color:hsl(332, 51%, 32%);
+    padding: 20px;
+}
+
+.preparation-time ul li {
+    padding-left: 25px; 
+    margin-top: 5px;
+}
+
+.preparation-container {
+   background-color: hsl(330, 4%, 99%);
+    width: 87%;
+    margin: 0 auto;
 }
