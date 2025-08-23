@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(28, 53%, 85%);
+}
+
+.recipe-container {
+    border-radius: 22px;
+    background-color: white;
+    width: 717px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.recipe-container img {
+    width: 87%;
+    height: auto;
+    max-width: 87%;
+    display: block;
+    margin: 36px auto;
+    border-radius: 12px;
+}
+
+.preparation-time {
+    margin-left: 40px;
+}
+
+.omelette-recipe {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.omelette-recipe h1 {
+    margin-bottom: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.omelette-recipe p {
+    width: 108%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
