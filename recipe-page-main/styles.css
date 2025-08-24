@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: hsl(28, 53%, 85%);
+    background-color: hsl(30, 54%, 90%)
 }
 
 .recipe-container {
     border-radius: 22px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     width: 717px;
     height: auto;
     position: absolute;
@@ -67,7 +67,8 @@ body {
 }
 
 .preparation-container {
-   background-color: hsl(330, 4%, 99%);
+   background-color: hsl(330, 100%, 98%);
     width: 87%;
     margin: 0 auto;
+    height: 160px;
 }
