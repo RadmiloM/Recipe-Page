@@ -11,7 +11,7 @@ body {
 .recipe-container {
     border-radius: 22px;
     background-color: hsl(0, 0%, 100%);
-    width: 717px;
+    width: 724px;
     height: auto;
     position: absolute;
     top: 60%;
@@ -57,17 +57,17 @@ body {
     margin: 0 auto;
     width: 81%;
     margin-top: 34px;
-    color:hsl(332, 51%, 32%);
+    color: hsl(332, 51%, 32%);
     padding: 20px;
 }
 
 .preparation-time ul li {
-    padding-left: 25px; 
+    padding-left: 25px;
     margin-top: 5px;
 }
 
 .preparation-container {
-   background-color: hsl(330, 100%, 98%);
+    background-color: hsl(330, 100%, 98%);
     width: 87%;
     margin: 0 auto;
     height: 160px;
@@ -86,7 +86,29 @@ body {
     font-weight: 400;
 }
 
+.ingredients ul {
+    margin-bottom: 34px;
+}
+
 .ingredients ul li {
     margin-left: 22px;
     padding-left: 14px;
+}
+
+.instructions-container {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.instructions-title {
+    margin-top: 30px;
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.instructions ol li {
+    margin-left: 18px;
+    margin-top: 11px;
 }
